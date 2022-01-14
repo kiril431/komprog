@@ -1,0 +1,13 @@
+numb5_src = files([
+'main.cc',
+'message.hh',
+'cat.hh',
+'tie.hh'
+])
+executable(
+'numb5',
+include_directories: src,
+sources: numb5_src,
+dependencies: [],
+install: true
+)
